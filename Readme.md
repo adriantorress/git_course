@@ -8,9 +8,9 @@
 
 ### Configurações
 
-git config (--global) <u>*user. (name) (email)*</u>
+git config (--global) |*user. (name) (email)*|
 
-git remote add origin <u>*portfólio remoto*</u>
+git remote add origin |*portfólio remoto*|
 
 
 
@@ -22,15 +22,15 @@ git init
 
 ### Alterando estado
 
-git add <u>*arquivo*</u>
+git add |*arquivo*|
 
-git commit (-am) <u>*mensagem*</u>
+git commit (-am) |*mensagem*|
 
-git reset HEAD <u>*arquivo*</u>
+git reset HEAD |*arquivo*|
 
-git checkout <u>*arquivo*</u>
+git checkout |*arquivo*|
 
-git reset (--soft, --mixed, --hard) <u>*chave*</u>
+git reset (--soft, --mixed, --hard) |*chave*|
 
 ### Checando estado e mudanças de estado
 
@@ -44,6 +44,6 @@ git log
 
 git shortlog (-sn)
 
-### "Github commands" <u>*usados para subir ou pegar estado no github*</u>
+### "Github commands" |*usados para subir ou pegar estado no github*|
 
-git push -u origin master <u>*branch inicial*</u>
+git push -u origin master |*branch inicial*|
