@@ -13,7 +13,7 @@
 
 ### Configurações
 
-**git config --global (user.name, user.email)(*nome ou email*)**
+**git config --global (user.name, user.email) (*nome ou email*)**
 >configuração do nome e email do usuário para a máquina local
 
 **git remote add origin (*portfólio remoto*)**
