@@ -80,8 +80,8 @@
 >mostra os commits de forma abreviada (autor e commits), com o -s da pra abreviar para mostrar somente autor e quantidade de commits
 
 
-
-
+  
+  
 ### "Github commands" 
 >os comandos usados para subir ou pegar estado no github
 
