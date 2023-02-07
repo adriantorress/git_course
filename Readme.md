@@ -109,3 +109,10 @@
 ### Criando alias para os comandos
 **git config --global alias.(*alias*) (*comando do alias*)**
 > cria um apelido para o comando desejado
+
+### Criando tags para agrupar commits
+**git tag -a (*versão*) -m (*mensagem*)**
+> cria a tag
+
+**git push --tags**
+> sobe as tags pro Github
