@@ -92,3 +92,16 @@
 >com o .gitignore da para ignorar arquivos que você não quer subir para o github, fazendo com que eles não apareçam para serem trackeados 
 >da para utilizar o "*" para ignorar arquivos pelas extensões, exemplo: *.json ignoraria todos os arquivos que tivessem essa extensão
 >há também uma biblioteca no github chamada gitignore, no qual consegue-se ver padrões de arquivos que costumam ser ignorados por cada tipo de projeto
+
+### Guardando mudanças ainda não finalizadas
+**git stash**
+>guarda as mudanças de um arquivo que está modified, escondendo as mudanças do ciclo de estados do git, ficará como "work in progress", ou seja, consegue-se continuar trabalhando em outros arquivos e só chamar as mudanças quando for conveniente.
+
+**git stash apply**
+> pega as mudanças que estão escondido e as tornam visíveis novamente, tornando o arquivo modified
+
+**git stash list**
+> mostra todos os arquivos que estão em stash
+
+**git stash clear**
+> apaga as mudanças que estão no stash
