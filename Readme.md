@@ -114,5 +114,8 @@
 **git tag -a (*versão*) -m (*mensagem*)**
 > cria a tag
 
+**git tag**
+> mostra as tags criadas
+
 **git push --tags**
 > sobe as tags pro Github
