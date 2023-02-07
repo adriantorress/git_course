@@ -1,15 +1,11 @@
 # Git Course
 
-
 ## Git commands
-
 
 ### Inicialização
 
 **git init**
 >cria o .git na pasta atual e cria uma ramificação principal e inicial -> a branch master.
-
-
 
 ### Configurações
 
@@ -18,8 +14,6 @@
 
 **git remote add origin (*portfólio remoto*)**
 >configurando para qual repositório remoto a sua pasta atual vai apontar
-
-
 
 ### Branch commands
 
@@ -80,14 +74,14 @@
 **git shortlog (-s)**
 >mostra os commits de forma abreviada (autor e commits), com o -s da pra abreviar para mostrar somente autor e quantidade de commits
 
-
-  
-
 ### "Github commands" 
 >os comandos usados para subir ou pegar estado no github
 
 **git push -u origin master**
 >subindo para a branch inicial
+
+**git pull**
+>sincronizando o repositório local com o remoto 
 
 ### Ignorando arquivos
 >com o .gitignore da para ignorar arquivos que você não quer subir para o github, fazendo com que eles não apareçam para serem trackeados 
@@ -124,3 +118,5 @@
 **git tag -d (*tag*)**
 > apaga a tag
 
+### Apagando tag ou branch no repositório remoto
+**git push  origin: (*tag* ou *branch*)**
