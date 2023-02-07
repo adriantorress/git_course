@@ -120,3 +120,6 @@
 
 **git push --tags**
 > sobe as tags pro Github
+
+**git tag -D**
+> apaga a tag
