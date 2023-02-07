@@ -81,9 +81,14 @@
 
 
   
-  
+
 ### "Github commands" 
 >os comandos usados para subir ou pegar estado no github
 
 **git push -u origin master**
 >subindo para a branch inicial
+
+### Ignorando arquivos
+>com o .gitignore da para ignorar arquivos que você não quer subir para o github, fazendo com que eles não apareçam para serem trackeados 
+>da para utilizar o "*" para ignorar arquivos pelas extensões, exemplo: *.json ignoraria todos os arquivos que tivessem essa extensão
+>há também uma biblioteca no github chamada gitignore, no qual consegue-se ver padrões de arquivos que costumam ser ignorados por cada tipo de projeto
