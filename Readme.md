@@ -73,6 +73,7 @@
 
 **git log**
 >mostra todos os commits com todas as infos sobre eles
+
 >--graph: ver os logs de uma forma mais visual
 
 **git shortlog (-s)**
