@@ -35,7 +35,11 @@
 **git branch -D (*nome da branch*)**
 >deletando uma branch
 
+**git merge**
+>junção de branchs: gera um novo commit (a branch master apontará para ele), com a junção (as mudanças das branchs que se deram o merge estará nele), continuando com a ordem cronológica dos commits das branchs que foram juntadas
 
+**git rebase**
+> junção de branchs: não gera um novo commit, apenas move um deles para o inicio e forma uma única fila (as branchs apontarão para esse commit movido para a frente). gera um histórico linear, mas perde a ordem cronológica
 
 ### Alterando estado
 
