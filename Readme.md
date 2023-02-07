@@ -58,7 +58,8 @@
 **git reset (--soft, --mixed, --hard) (*chave*)**
 > git reset vai receber a chave de um estado, se for anterior ao atual, ele vai pegar o estado atual e voltar para estados anteriores conforme ordenado: com o --soft, ele volta do último commit feito para o estado de staged; com o --mixed ele volta para o estado de modified e com o --hard ele volta para o estado de unmodified, apagando todas as alterações, ou seja, basicamente excluindo o commit atual 
 
-
+**git revert (*chave*)**
+> ele reverte as alterações do último commit, mas não o exclui, cria outro commit com a reversão e o que foi revertido continua no histórico para possíveis correções futuras 
 
 ### Checando estado e mudanças de estado
 
