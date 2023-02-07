@@ -105,3 +105,7 @@
 
 **git stash clear**
 > apaga as mudanças que estão no stash
+
+### Criando alias para os comandos
+**git config --global alias.(*alias*) (*comando do alias*)**
+> cria um apelido para o comando desejado
