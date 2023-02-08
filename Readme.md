@@ -85,7 +85,9 @@
 
 ### Ignorando arquivos
 > com o .gitignore da para ignorar arquivos que você não quer subir para o github, fazendo com que eles não apareçam para serem trackeados 
+
 > da para utilizar o "*" para ignorar arquivos pelas extensões, exemplo: *.json ignoraria todos os arquivos que tivessem essa extensão
+
 > há também uma biblioteca no github chamada gitignore, no qual consegue-se ver padrões de arquivos que costumam ser ignorados por cada tipo de projeto
 
 ### Guardando mudanças ainda não finalizadas
@@ -121,3 +123,18 @@
 ### Apagando tag ou branch no repositório remoto
 **git push  origin: (*tag* ou *branch*)**
 > diferente de outros comandos que só apagam no repositório local, esse comando apaga a tag ou a branch no repositório remoto, ou seja, no Github 
+
+### Criando chave SSH para acesso ao repositório remoto
+> algumas vezes é possível que tenha alguma negação de permissão para subir o projeto para o repositório remoto, e então se faz necessário criar a chave para dar essa permissão ao dispositivo.
+
+**ssh-keygen -t rsa -b 4096 -C (*email*)**
+> gera a chave ssh
+
+**cd ~/.ssh**
+> navega até a pasta que está a chave
+
+**(cat ou more) id_rsa.pub**
+> retorna a chave pública
+
+> ao pegar a chave pública é só ir em settings no github e adicioná-la aos seus SSHs
+
